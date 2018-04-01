@@ -1,3 +1,145 @@
 @charset "utf-8";
 /* CSS Document */
+.well1 {
+  min-height: 50px;
+  padding: 100px;
+  margin-bottom: 2px;
+  background-color: #2d4722;
+  border: 0px solid #e3e3e3;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+	color: #FFFFFF;
+	margin-top: -85px;
+	
+}
 
+.test1{
+	margin-bottom: 60px;
+	
+	
+}
+
+
+.test2{
+	margin-bottom: 20px;
+	font-weight: 600;
+	
+	
+}
+
+
+.test3 {
+	
+text-align: center !important;	
+}
+
+
+.input-group.md-form.form-sm.form-2 input.amber-border  {
+    border: 1px solid #ffca28;
+}
+
+/*
+* The function calc is working wrong in case calculations in the Firefox
+*/
+.photobox{
+  display: inline-block;
+}
+
+.photobox__previewbox{
+  position: relative;
+  overflow: hidden;
+	color: white;
+}
+
+.photobox__preview{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.photobox__previewbox:before{
+  content: "";
+}
+
+/* type 6 */
+
+.photobox_type6 .photobox__previewbox:before{
+  width: 0;
+  height: 0;
+  padding: 25%;
+  
+  background-color: var(--photoboxOverlay, rgba(0, 0, 0, .8));
+  border-radius: 50%;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  -webkit-transition: -webkit-transform calc(var(--photoboxAnimationDuration, .8s) / 2) ease;
+
+  transition: -webkit-transform calc(var(--photoboxAnimationDuration, .8s) / 2) ease;
+
+  transition: transform calc(var(--photoboxAnimationDuration, .8s) / 2) ease;
+
+  transition: transform calc(var(--photoboxAnimationDuration, .8s) / 2) ease, -webkit-transform calc(var(--photoboxAnimationDuration, .8s) / 2) ease;
+  will-change: transform;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+}
+
+.photobox_type6:hover .photobox__previewbox:before{
+  -webkit-transform: translate(-50%, -50%) scale(4);
+          transform: translate(-50%, -50%) scale(4);
+  -webkit-transition-duration: var(--photoboxAnimationDuration, .8s);
+          transition-duration: var(--photoboxAnimationDuration, .8s);
+}
+
+.photobox_type6 .photobox__label{
+  width: 95%;
+  text-align: center;
+  
+  -webkit-transform: translate(-200%, -50%);
+  
+          transform: translate(-200%, -50%);
+  -webkit-transition: -webkit-transform calc(var(--photoboxAnimationDuration, .8s) / 2) ease-out;
+  transition: -webkit-transform calc(var(--photoboxAnimationDuration, .8s) / 2) ease-out;
+  transition: transform calc(var(--photoboxAnimationDuration, .8s) / 2) ease-out;
+  transition: transform calc(var(--photoboxAnimationDuration, .8s) / 2) ease-out, -webkit-transform calc(var(--photoboxAnimationDuration, .8s) / 2) ease-out;
+  will-change: transform;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.photobox_type6:hover .photobox__label{
+  -webkit-transition-duration: calc(var(--photoboxAnimationDuration, .8s) / 4);
+          transition-duration: calc(var(--photoboxAnimationDuration, .8s) / 4);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+
+
+}
+
+.well3 {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color:#FFFFFF;
+  
+  border-radius: 0px;
+  
+	margin-top: -85px;
+	position: relative;
+}
+
+.fb01{
+	background-color: #75b14d;
+
+}
+
+.fb02{
+	background-color: #5e963f;
+	margin-top: -20px;
+}
