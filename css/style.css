@@ -1,21 +1,20 @@
-@charset "utf-8";
+text-righttext-right@charset "utf-8";
 /* CSS Document */
-.well1 {
+
+
+.well1
+{
   min-height: 50px;
   padding: 100px;
   margin-bottom: 2px;
-  background-color: #2d4722;
+  background:#2d4722 !important;
   border: 0px solid #e3e3e3;
-  border-radius: 0px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
-	color: #FFFFFF;
-	margin-top: -85px;
-	
+  color: #FFFFFF;
+   margin-top: -85px !important;	
 }
 
 .test1{
-	margin-bottom: 60px;
+	margin-bottom: 100px;
 	
 	
 }
@@ -33,6 +32,13 @@
 	
 text-align: center !important;	
 }
+
+.test5 {
+	
+text-align: right!important;	
+}
+
+
 
 
 .input-group.md-form.form-sm.form-2 input.amber-border  {
@@ -142,4 +148,104 @@ text-align: center !important;
 .fb02{
 	background-color: #5e963f;
 	margin-top: -20px;
+}
+.jumbo {
+    padding-top: 3px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    background-color: #2d4722;
+}
+.well4 {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #e3e3e3;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    margin-top: -150px;
+    position: relative;
+}
+
+
+
+.code
+{
+  min-height: 50px;
+  padding: 100px;
+  margin-bottom: 2px;
+  background:#2d4722 !important;
+  border: 0px solid #e3e3e3;
+  color: #FFFFFF;
+   margin-top: -85px !important;	
+}
+
+.navstep > li > a {
+    position: relative;
+    display: block;
+    /* padding: 5px 5px; */
+    color: #101010;
+    text-align: left;
+    line-height: 0.1;
+	font-size:14px;
+	font-weight:500;
+	color:#5C5C5C;
+}
+
+.navstep > li > a:hover,
+.navstep > li > a:focus {
+  text-decoration: none;
+color:#000000;
+font-weight:500;
+font-size:14px;
+}
+
+
+.pag{
+	
+margin-top: 20px !important;	
+}
+.pagbag{
+
+background-color: #C9C9C9	
+}
+
+
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #292b2c;
+  background-color:#D4D4D4;
+}
+
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 0px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.sticky {
+  position: fixed;
+  top: 215px;  /* если ноль заменить на число (и в скрипте тоже), то блок будет прилипать до того, как верхний край окна браузера дойдёт до верхнего края элемента. Может быть отрицательным числом. Применим, например, при фиксированном сверху меню */
+  z-index: 101;
+}
+
+
+.parent-row {
+    height: inherit;
+    margin: -106px 0;
+    padding: 0px 0px 0px 0px;
+    overflow: auto;
+	position: fixed;
+	z-index: 50;
 }
